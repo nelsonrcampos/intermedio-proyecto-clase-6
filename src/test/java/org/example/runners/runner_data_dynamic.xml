@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ejecucion de casos de prueba dinamicos">
+    <test name="Casos de prueba de Create Account dinamicos">
+        <classes>
+            <class name="org.example.tests.TestCreateAccount">
+                <methods>
+                    <include name="create_a_account_new_data_dynamic"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

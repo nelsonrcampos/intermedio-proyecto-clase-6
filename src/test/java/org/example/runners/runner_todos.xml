@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ejecucion de todos los casos de prueba">
+    <test name="Casos de prueba de Customer Login">
+        <classes>
+            <class name="org.example.tests.TestCustomerLogin"></class>
+        </classes>
+    </test>
+
+    <test name="Casos de prueba de Create Account">
+        <classes>
+            <class name="org.example.tests.TestCreateAccount"></class>
+        </classes>
+    </test>
+</suite>
